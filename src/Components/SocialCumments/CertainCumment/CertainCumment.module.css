@@ -1,0 +1,74 @@
+.CertainCumment_Container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.CerCum_Sec {
+    width: 100%;
+    height: 40%;
+    margin-bottom: 15%;
+    background-image: url('../../../Images/cummentback.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.CerCum_Sec img {
+    width: 100px;
+}
+
+.CerCum_Sec h3 {
+    margin: 0;
+    padding: 3% 0;
+    color: var(--white);
+}
+
+.CerCum_Sec p {
+    font-size: 12px;
+    padding: 0 15% 9% 15%;
+    margin: 0;
+    color: #CDCDCD;
+}
+
+.cumment_btn {
+    font-size: 18px;
+    color: var(--text_black_darker);
+    padding: 3% 12%;
+    border-radius: 15px;
+    margin-bottom: 10%;
+    align-items: center;
+    font-family: 'iran-sans';
+    cursor: pointer;
+    border: 3px solid #000000;
+    outline: none;
+    background: transparent;
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+}
+
+@media (max-width: 720px) {
+
+    .CertainCumment_Container {
+        justify-content: center;
+    }
+
+    .CerCum_Sec {
+        height: 40%;
+        margin-bottom: 15%;
+    }
+
+    .cumment_btn {
+        margin-bottom: 0%;
+    }
+
+}

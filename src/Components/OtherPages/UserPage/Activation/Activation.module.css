@@ -1,0 +1,106 @@
+.Activation_Container {
+    width: 90%;
+    height: 90%;
+    padding: 1%;
+    
+}
+
+.Activation_Container form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.activation_input_sec {
+    width: 60%;
+    margin: 1% 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.activation_input_sec p {
+    width: 20%;
+}
+
+.activation_input_sec input {
+    width: 50%;
+    height: 70%;
+    border-radius: 5px;
+    border: 2px solid #261E354D;
+}
+
+.activation_input_sec span {
+    color: #000000B2;
+    margin-right: 1%;
+}
+
+.activation_btn_sec {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.activation_btn_sec button {
+    width: 20%;
+    height: 3rem;
+    font-size: 16px;
+    color: var(--white);
+    background-color: #261E35;
+    align-items: center;
+    font-family: 'iran-sans';
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    border-radius: 10px;
+    justify-content: center;
+    padding: 3% 6%;
+    border: none;
+    text-align: center;
+    user-select: none;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.activation_btn_sec button img {
+    width: 18px;
+    margin: 0 0 0 10px;
+}
+
+.alert_div_notactive {
+    display: none;
+}
+
+.alert_div {
+    width: 50%;
+    height: 40%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert_sec {
+    width: 70%;
+    height: 70%;
+    border-radius: 15px;
+    border-right: 20px solid #14B82E;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    background-color: #D3BBDD;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.alert_sec img {
+    margin-left: 15px;
+}

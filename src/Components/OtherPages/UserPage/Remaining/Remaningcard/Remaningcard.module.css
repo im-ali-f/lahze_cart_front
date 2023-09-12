@@ -1,0 +1,33 @@
+.Remaningcard_Container {
+    width: 100%;
+    margin-bottom: 1%;
+}
+
+.remaiming_main_sec {
+    width: 100%;
+    border: 2px solid #BBB8B8;
+    border-right: 11px solid #6F4975;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.remaiming_main_sec_div1 {
+    width: 80%;
+    color: #3c3b3c98;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.remaiming_main_sec_div2 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}

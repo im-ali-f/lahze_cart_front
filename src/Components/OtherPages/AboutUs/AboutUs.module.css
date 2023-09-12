@@ -1,0 +1,99 @@
+.AboutUs_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.main_qnada_sec {
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #AC91B64A;
+}
+
+.navbar_qnda_sec {
+    width: 90%;
+}
+
+.AboutUs_info_sec {
+    width: 90%;
+}
+
+.AboutUs_info_sec h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.AboutUs_info_sec p {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.info_pic {
+    margin: 5% 0;
+}
+
+.info_pic_for_phone {
+    display: none;
+}
+
+@media (max-width: 720px) {
+
+    .info_pic {
+        display: none;
+    }
+
+    .info_pic_for_phone {
+        display: block;
+        margin: 5% 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .main_qnada_sec {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        border-radius: 0 0 35px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #AC91B64A;
+    }
+
+    .AboutUs_info_sec {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+    .AboutUs_info_sec h1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+
+    .AboutUs_info_sec p {
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .info_pic {
+        display: none;
+    }
+
+    .info_pic_for_phone {
+        display: block;
+        margin: 5% 0;
+    }
+
+}

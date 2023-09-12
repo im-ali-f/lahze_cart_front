@@ -1,0 +1,115 @@
+.QandaPage_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.main_qnada_sec {
+    width: 90%;
+    margin-top: 2%;
+    border-radius: 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #AC91B64A;
+}
+
+.navbar_qnda_sec {
+    width: 90%;
+}
+
+.questions_sec {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.questions_sec h1 {
+    font-size: 32px;
+}
+
+.certainq_div {
+    width: 85%;
+    padding-bottom: 2%;
+    margin-top: 2%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.certainq_div div {
+    font-size: 18px;
+    color: #282828;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 200ms ease-in;
+}
+
+.certainq_div div:hover {
+    color: #793E8E;
+    transition: all 200ms ease-in;
+}
+
+.certainq_div div img {
+    width: 36px;
+    /* height: 36px; */
+}
+
+.span_active {
+    font-size: 14px;
+    font-weight: bold;
+    color: #000000;
+    transition: all 200ms ease-in-out;
+}
+
+.spandeActive {
+    display: none;
+    /* font-size: 11px;
+    font-weight: bold;
+    color: #8a8a8a;
+    transition: all 200ms ease-in-out; */
+}
+
+@media (max-width: 720px) {
+
+    .info_pic {
+        display: none;
+    }
+
+    .info_pic_for_phone {
+        display: block;
+        margin: 5% 0;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .main_qnada_sec {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5%;
+        padding-top: 5%;
+        border-radius: 0 0 35px 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #AC91B64A;
+    }
+
+    .AboutUs_info_sec {
+        width: 90%;
+        margin-top: 5%;
+    }
+
+}

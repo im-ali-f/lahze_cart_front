@@ -1,0 +1,96 @@
+.Cards_Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.Cards_Container h1 {
+    margin: 0;
+    margin: 10% 0 5% 0;
+}
+
+.Cards_Container img {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.card_active {
+    display: block;
+    transition: all 200ms ease-in;
+}
+
+.card_not_active {
+    display: none;
+    transition: all 200ms ease-in;
+}
+
+.phoneHowto {
+    display: none;
+}
+
+@media (max-width: 720px) {
+
+    .card_active {
+        display: none;
+    }
+
+    .phoneHowto {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .card_phone_active {
+        display: block;
+        transition: all 200ms ease-in;
+    }
+
+    .phoneHowto img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .phoneHowto {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
+    .card_phone_active {
+        display: block;
+        transition: all 200ms ease-in;
+    }
+
+    .phoneHowto img {
+        width: 100%;
+        height: 100%;
+        cursor: pointer;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }
+
+}

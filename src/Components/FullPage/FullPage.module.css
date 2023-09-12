@@ -1,0 +1,57 @@
+.fullpage_container {
+    /* overflow-x: hidden; */
+}
+
+/* navbar section */
+.Navbar_section {
+    margin: 0 5%;
+    width: auto;
+    height: auto;
+}
+
+/* Background section */
+.Background_section {
+    width: auto;
+    height: auto;
+}
+
+/* Fullpage styles */
+.Landing_section {
+    padding: 1% 4% 0% 4%;
+}
+
+.Cards_section {
+    /* padding: 0% 4% 5% 4%; */
+}
+
+.Cardexample_section {
+    /* padding: 0% 4% 5% 4%; */
+}
+
+.Howto_section {
+    /* padding: 0% 4% 5% 4%; */
+}
+
+.Qanda_section {
+    /* padding: 0% 4% 5% 4%; */
+}
+
+.Cumments_sections {
+    /* padding: 5% 4% 5% 4%; */
+}
+
+.SocialCumments_sections {
+    /* padding: 5% 4% 5% 4%; */
+}
+
+.Trophies_sections {
+    /* padding: 5% 4% 5% 4%; */
+}
+
+.AboutUs_section {
+    /* padding: 2% 4% 3% 4%; */
+}
+
+.Footer_sections {
+    /* padding: 5% 5% 0% 5%; */
+}

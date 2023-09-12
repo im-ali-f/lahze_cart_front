@@ -1,0 +1,194 @@
+.Qanda_Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.qanda_sec {
+    width: 55%;
+    height: 100%;
+    padding: 10% 0 0 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.qanda_img {
+    width: 228px;
+    margin-bottom: 2%;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.certainq_div {
+    width: 85%;
+    padding-bottom: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.certainq_div div {
+    font-size: 14px;
+    color: #282828;
+    font-weight: bold;
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.certainq_div div img {
+    width: 42px;
+    height: 42px;
+}
+
+.span_active {
+    font-size: 11px;
+    font-weight: bold;
+    color: #8a8a8a;
+    transition: all 200ms ease-in-out;
+}
+
+.spandeActive {
+    display: none;
+    /* font-size: 11px;
+    font-weight: bold;
+    color: #8a8a8a;
+    transition: all 200ms ease-in-out; */
+}
+
+.moreQ_div {
+    width: 84%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.moreQ_div button {
+    font-size: 16px;
+    text-shadow: -5px 5px 10px var(--background_black_darker);
+    color: #261E35;
+    align-items: center;
+    font-family: 'iran-sans';
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    background-color: transparent;
+    justify-content: center;
+    outline: 0;
+    padding: 0.5% 0;
+    border: none;
+    margin: 2% 0;
+    text-align: center;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    transition: all 200ms ease-in;
+}
+
+.moreQ_div button:hover {
+    color: #6b627a;
+    transition: all 200ms ease-in;
+}
+
+.phone_sec {
+    width: 45%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.phone_img {
+    width: 450px;
+}
+
+.phone_img_deactive {
+    display: none;
+}
+
+.buttons_div {
+    width: 100%;
+    text-align: center;
+}
+
+.btn_active {
+    width: 15px;
+    height: 15px;
+    margin: 1% 2%;
+    border-radius: 50%;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    background-color: #6F4975;
+    border: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+.btn_deactive {
+    width: 15px;
+    height: 15px;
+    margin: 1% 2%;
+    border-radius: 50%;
+    align-items: center;
+    box-sizing: border-box;
+    cursor: pointer;
+    display: inline-flex;
+    background-color: transparent;
+    border: 3px solid #6F4975;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+
+@media (max-width: 720px) {
+
+    .Qanda_Container {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .qanda_sec {
+        width: 70%;
+        height: 100%;
+        padding: 10% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+}
+
+@media (max-width: 420px) {
+
+    .qanda_sec {
+        width: 100%;
+        height: 100%;
+        padding: 10% 0 0 0;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: center;
+    }
+
+    .phone_img {
+        width: 380px;
+    }
+
+}

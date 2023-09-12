@@ -1,0 +1,70 @@
+.Cumments_Container {
+    width: 100%;
+    height: 100vh;
+    padding-top: 10%;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.cumments_sec_cumment {
+    width: 100%;
+    margin-top: 10%;
+    background-image: url('../../Images/partnerswall.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: scroll;
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto auto auto auto;
+
+}
+
+.cumments_sec_cumment::-webkit-scrollbar {
+    width: 10px;
+    background: transparent;
+}
+  
+.cumments_sec_cumment::-webkit-scrollbar-track {
+    background: transparent;
+}
+  
+.cumments_sec_cumment::-webkit-scrollbar-thumb {
+    border-radius: 5em;
+    background: #261E35;
+}
+  
+.cumments_sec_cumment::-webkit-scrollbar-thumb:hover {
+    background: #261E35;
+}
+
+@media (max-width: 720px) {
+
+    .cumments_sec_cumment {
+        overflow-x: hidden;
+        grid-template-rows: auto auto;
+        grid-template-columns: auto auto auto;
+    
+    } 
+
+}
+
+@media (max-width: 420px) {
+
+    .Cumments_Container {
+        height: auto;
+    }
+
+    .header_img {
+        width: 320px;
+    }
+
+    .cumments_sec_cumment {
+        overflow-x: hidden;
+        grid-template-rows: auto auto auto auto;
+        grid-template-columns: auto auto;
+    
+    } 
+
+}

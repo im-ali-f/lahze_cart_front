@@ -1,0 +1,102 @@
+.Trophies_Container {
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.header_pic {
+    width: 400px;
+    margin-bottom: 2%;
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+.pid_sec {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pid_sec img {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+@media (max-width: 720px) {
+
+    .Trophies_Container {
+        padding-top: 10%;
+    }
+    
+
+    .header_pic {
+        width: 380px;
+        margin-bottom: 10%;
+    }
+
+    .pid_sec {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pid_sec img {
+        width: 150px;
+        height: 150px;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }   
+
+}
+
+@media (max-width: 420px) {
+
+    .Trophies_Container {
+        padding-top: 20%;
+        height: 50vh;
+    }
+    
+
+    .header_pic {
+        width: 300px;
+        margin-bottom: 10%;
+    }
+
+    .pid_sec {
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pid_sec img {
+        width: 100px;
+        height: 100px;
+        user-drag: none;
+        -webkit-user-drag: none;
+        user-select: none;
+        -moz-user-select: none;
+        -webkit-user-select: none;
+        -ms-user-select: none;
+    }   
+
+}
